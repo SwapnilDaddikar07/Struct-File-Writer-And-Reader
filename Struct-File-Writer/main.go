@@ -24,7 +24,7 @@ func main() {
 	data := make([]Person, 10)
 	for i := 0; i < 10; i++ {
 		data[i] = Person{
-			Name: strconv.Itoa(i),
+			Name: "Name " + strconv.Itoa(i),
 			Age:  i,
 		}
 	}
