@@ -16,7 +16,7 @@ type Person struct {
 //Reads the file line by line and unmarshalls the data into a struct.
 func main() {
 
-	f, err := os.Open("Structs.txt")
+	f, err := os.Open("../Structs.txt")
 	if err != nil {
 		log.Fatalln(err)
 	}

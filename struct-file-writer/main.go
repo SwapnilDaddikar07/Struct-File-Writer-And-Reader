@@ -31,7 +31,7 @@ func main() {
 
 	//Write all these 10 objects into the file.
 
-	f, err := os.Create("Structs.txt")
+	f, err := os.Create("../Structs.txt")
 	if err != nil {
 		log.Fatalln(err)
 	}
